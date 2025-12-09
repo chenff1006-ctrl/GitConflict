@@ -7,12 +7,12 @@
         <button class="control-btn play-btn" @click="playVideo">
           <i class="icon-play">
             <svg t="1757491075037" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="7180" width="14" height="14"><path d="M780.8 475.733333L285.866667 168.533333c-27.733333-17.066667-64 4.266667-64 36.266667v614.4c0 32 36.266667 53.333333 64 36.266667l492.8-307.2c29.866667-14.933333 29.866667-57.6 2.133333-72.533334z" fill="#ffffff" p-id="7181"></path></svg>
-          </i> 播放
+          </i> 播放 按钮A
         </button>
         <button class="control-btn pause-btn" @click="pauseVideo">
           <i class="icon-pause">
             <svg t="1757491109090" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="8235" width="14" height="14"><path d="M116.053333 146.773333h184.746667v730.026667H116.053333zM723.2 146.773333h184.746667v730.026667h-184.746667z" fill="#ffffff" p-id="8236"></path></svg>
-          </i> 暂停
+          </i> 暂停 按钮A
         </button>
         <button class="control-btn resume-btn" @click="resumeVideo">
           <i class="icon-resume">
@@ -22,7 +22,7 @@
         <button class="control-btn stop-btn" @click="stopVideo">
           <i class="icon-stop">
             <svg t="1757491184787" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="10465" width="14" height="14"><path d="M835.5 815.5v-607c0-11-9-20-20-20h-607c-11 0-20 9-20 20v607c0 11 9 20 20 20h607c11 0 20-9 20-20z" fill="#ffffff" p-id="10466"></path></svg>
-          </i> 结束
+          </i> 结束 按钮A
         </button>
         <div class="volume-control-wrapper" @click.stop>
           <button class="control-btn volume-btn" @click="toggleVolumeControl">
@@ -45,7 +45,7 @@
         <button class="control-btn power-on-btn" @click="powerOn">
           <i class="icon-power">
          <svg t="1757491580895" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="35313" width="16" height="16"><path d="M512 64a448 448 0 1 0 0 896A448 448 0 0 0 512 64z m0 820.004571A372.004571 372.004571 0 1 1 512 139.995429a372.004571 372.004571 0 0 1 0 744.009142z m-45.714286-197.778285l219.428572-126.683429a54.857143 54.857143 0 0 0 0-95.085714l-219.428572-126.683429a54.857143 54.857143 0 0 0-82.285714 47.542857v253.366858a54.857143 54.857143 0 0 0 82.285714 47.542857z" fill="#ffffff" p-id="35314"></path></svg>
-          </i> 开机
+          </i> 开机 按钮A
         </button>
         <button class="control-btn power-off-btn" @click="powerOff">
           <i class="icon-power-off">
@@ -60,7 +60,7 @@
         <button class="control-btn record-btn" @click="showRecord">
           <i class="icon-record">
             <svg t="1757491454122" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="29894" width="16" height="16"><path d="M512 73.142857a438.857143 438.857143 0 1 0 438.857143 438.857143 438.857143 438.857143 0 0 0-438.857143-438.857143z m190.171429 504.685714H446.171429V263.314286H512V512h190.171429z" fill="#ffffff" p-id="29895"></path></svg>
-          </i> 播放记录
+          </i> 播放记录 按钮A
         </button>
       </div>
     </div>
@@ -86,7 +86,7 @@
 
     <!-- 底部播放设置区域 -->
     <div class="bottom-settings-area">
-      <h3>切换</h3>
+      <h3>切换按钮A</h3>
       <div class="room-selection">
         <span 
           v-for="(room, index) in rooms" 
@@ -111,7 +111,7 @@ export default {
       estimatedTime: '02:30:00',
       estimatedFinish: '18:30',
       selectedRoom: '房间室A',
-      rooms: ['房间室A', '房间室B', '房间室C', '房间室D', '房间室E'],
+      rooms: ['房间室A', '房间室B按钮A', '房间室C', '房间室D', '房间室E按钮A'],
       showVolumeControl: false,
       volumeLevel: 80,
       mediaTitle: '播放素材.mp4'
