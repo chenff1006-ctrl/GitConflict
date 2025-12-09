@@ -1,5 +1,6 @@
 <template>
   <div class="video-player-container" @click="handleContainerClick">
+    
     <!-- 顶部控制栏 新编辑1123-->
     <div class="top-control-bar">
       <div class="control-buttons">
