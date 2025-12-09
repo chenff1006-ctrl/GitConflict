@@ -67,7 +67,7 @@
           <i class="icon-record">
             <svg t="1757491454122" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="29894" width="16" height="16"><path d="M512 73.142857a438.857143 438.857143 0 1 0 438.857143 438.857143 438.857143 438.857143 0 0 0-438.857143-438.857143z m190.171429 504.685714H446.171429V263.314286H512V512h190.171429z" fill="#ffffff" p-id="29895"></path></svg>
        
-          </i> 播放记录 线上内容不能动
+          </i> 播放记录 线上内容不能动1
         </button>
       </div>
     </div>
@@ -77,9 +77,9 @@
       <div class="time-highlight">
         <span class="media-title">{{ mediaTitle }}</span>
         <span class="time-separator">|</span>
-        <span class="current-time">当前播放时长：{{ currentTime }}</span>
+        <span class="current-time">当前播放时长11：{{ currentTime }}</span>
         <span class="time-separator">|</span>
-        <span class="estimated-time">预计播放时长：{{ estimatedTime }}</span>
+        <span class="estimated-time">预计播放时长22：{{ estimatedTime }}</span>
       </div>
       
     </div>
@@ -87,13 +87,13 @@
     <!-- 中间视频播放区域 -->
     <div class="video-display-area">
       <div class="video-placeholder">
-        <p class="video-text">文字</p>
+        <p class="video-text">文字11</p>
       </div>
     </div>
 
     <!-- 底部播放设置区域 -->
     <div class="bottom-settings-area">
-      <h3>切换按钮A</h3>
+      <h3>切换按钮A2233</h3>
       <div class="room-selection">
         <span 
           v-for="(room, index) in rooms" 
@@ -118,7 +118,7 @@ export default {
       estimatedTime: '02:30:00',
       estimatedFinish: '18:30',
       selectedRoom: '房间室A',
-      rooms: ['房间室A', '房间室B按钮A', '房间室C', '房间室D', '房间室E按钮A'],
+      rooms: ['房间室A1', '房间室B按钮A2', '房间室C3', '房间室D4', '房间室E按钮A5'],
       showVolumeControl: false,
       volumeLevel: 80,
       mediaTitle: '播放素材.mp4'
